@@ -83,7 +83,6 @@ function catnip(id) {
 
 function setKittenMood(id) {
   let thisCat = findKittenById(id)
-  debugger
   if (thisCat.affection <= 0) {
     thisCat.mood = 'Gone'
   }
